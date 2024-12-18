@@ -15,4 +15,9 @@ public class GitController {
     public String second() {
         return "second";
     }
+
+    @GetMapping("/3")
+    public String third() {
+        return "third";
+    }
 }
