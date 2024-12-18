@@ -15,4 +15,9 @@ public class GitController {
     public String second() {
         return "second";
     }
+
+    @GetMapping("/4")
+    public String fourth() {
+        return "fourth";
+    }
 }
