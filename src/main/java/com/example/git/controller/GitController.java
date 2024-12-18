@@ -10,4 +10,9 @@ public class GitController {
     public String first() {
         return "first";
     }
+
+    @GetMapping("/2")
+    public String second() {
+        return "second";
+    }
 }
